@@ -1,0 +1,151 @@
+body{
+    margin: 0%;
+    background-color: rgb(123, 123, 128);
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Fing Sang';
+}
+h1{
+    background-color: beige;
+    text-align: center;
+}
+h2{
+    font-size: 25px;
+    text-align: right;
+    color: rgb(204, 155, 137);
+}
+a{
+    color: rgb(63, 17, 17);
+    font-size: 15px;
+    text-decoration: none;
+}
+.navbar{
+    background-color: rgb(119, 29, 104) ;
+    padding: 1% 7%;
+    text-align: center;
+}
+.nav h1{
+    color: antiquewhite;
+    margin: 5;
+    padding: 10px;
+}
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-menu a{
+    background-color: rgb(233, 194, 194);
+    border-radius: 10px;
+    margin: 7px 9px;
+    padding: 10px;
+    text-shadow: 1px 1px;
+}
+.nav-menu a:hover{
+    background-color: gray;
+}
+img{
+    border-radius: 50%;
+}
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16%;}
+.col-3{width: 25%;}
+.col-4{width: 33%;}
+.col-5{width: 41%;}
+.col-6{width: 50%;}
+.nav-logo{
+    text-align: left;
+}
+
+
+
+p{
+    font-size: 2.5rem;
+    text-align: justify;
+    font-family: 'Crimson Text', serif;
+font-family: 'Satisfy', cursive;
+}
+.profile{
+    padding: 100px 10px;
+    position: relative;
+    text-align: center;
+}
+h1{
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
+}
+.profile::after{
+    contain: '';
+    display: table;
+    clear: both;
+}
+
+
+
+
+h2{
+    text-align: center;
+    font-size: 2.5rem;
+    
+}
+.about-me{
+    background-color: rgb(46, 52, 59);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace ;
+}
+.dotted-hr{
+    border: dotted 6px white;
+    border-bottom: none;
+    margin: 1px auto;
+    width: 50px;
+}
+.about-me p{ 
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact h2{
+    color: black;
+}
+
+.Education p{
+    font-size: 1.5rem;
+   
+
+}
+.Education{
+    display: flex;
+    flex-direction: row;
+    
+    background-color:rgb(46, 52, 59) ;
+}
+
+
+
+
+
+.contact{
+    background-image: url(cph.jpg) ;
+    background-repeat: no-repeat 100% 100%;
+    
+}
+.contact i{
+    font-size: 10rem;
+    color: blueviolet;
+    background-color: beige;
+    border-radius: 50}
+.contact i1{
+    font-size: 10rem;
+   background-color: rgb(11, 173, 60);
+    color: beige;
+    text-align: center;
+    margin-left: 50rem;
+    border-radius: 50%;
+}
